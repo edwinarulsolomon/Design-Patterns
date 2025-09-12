@@ -1,3 +1,4 @@
+package BuilderPattern;
 public class Mobile {
     private final String ram;
     private final String processor;
@@ -37,7 +38,7 @@ public class Mobile {
 
         public Mobile build()
         {
-            return new Mobile(ram,processor,model,network)gi;
+            return new Mobile(ram,processor,model,network);
         }
     }
 
