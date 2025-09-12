@@ -1,4 +1,6 @@
 package FactoryPattern;
-
-public class Payment {
+interface Payment
+{
+    void getBill();
+    void paymentStatus();
 }
