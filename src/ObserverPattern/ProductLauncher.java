@@ -1,4 +1,7 @@
 package ObserverPattern;
 
-public class ProductLauncher {
+public interface ProductLauncher {
+    void subscribe(Customer customer);
+    void unsubscribe(Customer customer);
+    void notifyCustomer();
 }

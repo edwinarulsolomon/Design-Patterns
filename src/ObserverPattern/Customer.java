@@ -1,4 +1,5 @@
 package ObserverPattern;
 
-public interface Customers {
+public interface Customer {
+    void update(String productname);
 }
